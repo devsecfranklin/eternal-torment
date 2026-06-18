@@ -2,7 +2,7 @@
 graphviz==0.21
 google-cloud-storage==2.19.0
 networkx==3.4.2
-matplotlib==3.9.2
+matplotlib==3.11.0
 pandas==3.0.3
 pydot==3.0.4
 pygraphviz==1.14
