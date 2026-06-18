@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 dvc[gs] # does not work on local cluster due to py3-git2 issue
-graphviz==0.20.3
+graphviz==0.21
 google-cloud-storage==2.19.0
 networkx==3.4.2
 matplotlib==3.9.2
