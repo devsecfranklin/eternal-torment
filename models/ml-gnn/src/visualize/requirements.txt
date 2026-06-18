@@ -11,6 +11,6 @@ pandas==3.0.3
 pydot==3.0.4
 pygraphviz==1.14
 python-terraform==0.10.1
-pytz==2024.2
+pytz==2026.2
 scipy==1.14.1 # needed by networkx to make adj matrix
 #tensorflow
