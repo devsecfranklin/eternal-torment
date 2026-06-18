@@ -6,7 +6,7 @@ jobs:
   run:
     runs-on: [ubuntu-latest]
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       - uses: iterative/setup-cml@v2.0.1
 
