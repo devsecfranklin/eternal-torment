@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1.4
+# syntax=docker/dockerfile:1.25
 FROM nvcr.io/nvidia/l4t-tensorflow:r32.6.1-tf2.5-py3
 
 LABEL maintainer="franklin <smoooth.y62wj@passmail.net>"
