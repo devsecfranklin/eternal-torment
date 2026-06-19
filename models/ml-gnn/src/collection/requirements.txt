@@ -6,4 +6,4 @@
 graphviz==0.21
 pygraphviz==1.14
 python-terraform==0.10.1
-google-cloud-storage==2.19.0
+google-cloud-storage==3.12.0
