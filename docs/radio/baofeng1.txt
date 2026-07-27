@@ -1,0 +1,27 @@
+In general, I recommend the Baofeng (also known as Tenq) UV-5R series of radios. They are cheap, chocked with features, and the preferred con radio. 
+ 
+Here is a single radio: 
+http://www.amazon.com/BaoFeng-UV5R-Dual-Band-Two-Way-Radio/dp/B007H4VT7A/ref=sr_1_1?ie=UTF8&qid=1428922798&sr=8-1&keywords=Baofeng+UV-5r
+ 
+Here is a 5 pack: 
+http://www.amazon.com/BaoFeng-136-174-Dual-Band-Baofeng-Programming/dp/B00E4FO2TW/ref=sr_1_12?ie=UTF8&qid=1428922798&sr=8-12&keywords=Baofeng+UV-5r
+ 
+Or a 10 pack:
+http://www.amazon.com/Baofeng-UV-5R-Dual-Band-Transceiver-Headsets/dp/B00EEPGEIY/ref=sr_1_25?ie=UTF8&qid=1428923223&sr=8-25&keywords=Baofeng+UV-5r
+ 
+Note, the 5/10 pack comes a programming cable, earpieces, and chargers. If you buy singles, you'll need earpieces/speakers and at least one programming cable. 
+ 
+Programming cable:
+http://www.amazon.com/Programming-Cable-Baofeng-UV-5R-Driver/dp/B008RZJHJU/ref=sr_1_3?ie=UTF8&qid=1428922798&sr=8-3&keywords=Baofeng+UV-5r
+ 
+Baofeng Earpiece: 
+http://www.amazon.com/Earpiece-Headset-Baofeng-Uv-5r-Two-way/dp/B00A3OI7MG
+ 
+Here's a cop-style speaker/transmitter for those that don't want earpieces: 
+http://www.amazon.com/Baofeng-BF-S112-Two-Radio-Speaker/dp/B008RZ0EQ0/ref=pd_sim_e_2?ie=UTF8&refRID=0AX8CHS3BXMR6W60C609
+ 
+You may want larger batteries for some stations: 
+http://www.amazon.com/ExpertPower%C2%AE-3800mAh-Baofeng-Battery-UV-5R-1/dp/B00ATTVKFQ/ref=sr_1_1?ie=UTF8&qid=1428923271&sr=8-1&keywords=Baofeng+UV-5r+battery
+ 
+ 
+I've attached the "standard" conference config. You can use Chirp, which is part of Kali, to program the radios. The standard conference config uses FRS/GMRS frequencies. FRS frequencies do not require a licensed individual and can be transmitted on freely. Technically, GMRS requires an FCC license, although no exam is required. Each individual must obtain a license, as entity licenses are no longer available.
