@@ -6,7 +6,7 @@ dvc[gs] # does not work on local cluster due to py3-git2 issue
 graphviz==0.21
 google-cloud-storage==3.13.0
 networkx==3.6.1
-matplotlib==3.11.0
+matplotlib==3.11.1
 pandas==3.0.5
 pydot==4.0.1
 pygraphviz==2.0.1
