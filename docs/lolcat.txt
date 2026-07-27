@@ -1,0 +1,7 @@
+sudo apt-get install zsh fortune cowsay python-pip mlocate git
+sudo pip install lolcat
+ 
+vi /etc/profile, addend to the end:
+alias cat='/usr/local/bin/lolcat'
+/usr/games/fortune | /usr/games/cowsay -f tux | /usr/local/bin/lolcat
+alias seppuku='ps -u `whoami` -o pid|grep -vi pid|xargs kill -9'

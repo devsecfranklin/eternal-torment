@@ -1,0 +1,59 @@
+git clone git://github.com/antirez/dump1090.git
+ 
+http://www.virtualradarserver.co.uk/
+adsbSCOPE by sprut
+ 
+https://flightaware.com/adsb/piaware/
+ 
+ 
+sudo apt-get install cmake libusb-1.0-0-dev  build-essential 
+ 
+Now install theRTL-2832U USB dongle driver source and compile:
+git clone git://git.osmocom.org/rtl-sdr.git
+cd rtl-sdr
+mkdir build
+cd build
+cmake ../ -DINSTALL_UDEV_RULES=ON
+make
+sudo make install
+sudo ldconfig
+ 
+ 
+cd ~
+sudo cp ./rtl-sdr/rtl-sdr.rules /etc/udev/rules.d/
+sudo reboot 
+rtl_test -t 
+ 
+ 
+thedevilsvoice@batpack ~ $ sudo rtl_test -t
+Found 1 device(s):
+  0:  Realtek, RTL2838UHIDIR, SN: 00000001
+ 
+Using device 0: Generic RTL2832U OEM
+ 
+Kernel driver is active, or device is claimed by second instance of librtlsdr.
+In the first case, please either detach or blacklist the kernel module
+(dvb_usb_rtl28xxu), or enable automatic detaching at compile time.
+ 
+usb_claim_interface error -6
+Failed to open rtlsdr device #0.
+ 
+ 
+ 
+Num|Part|Cost & Qty.|Link, Description, etc.
+--- | --- | --- | ---
+1 | DVB-T USB 2.0 | $15 | http://hackerwarehouse.com/product/dvb-t-usb2-0/
+2 | 1090Mhz Antenna MCX Plug 2.5dbi | $5 | http://r.ebay.com/YKAOmA
+ 
+ 
+sudo apt-get install cmake libusb-1.0-0-dev  build-essential
+ 
+Now install theRTL-2832U USB dongle driver source and compile:
+git clone git://git.osmocom.org/rtl-sdr.git
+cd rtl-sdr
+mkdir build
+cd build
+cmake ../ -DINSTALL_UDEV_RULES=ON
+make
+sudo make install
+sudo ldconfig
