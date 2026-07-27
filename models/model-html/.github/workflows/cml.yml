@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - uses: iterative/setup-cml@v2.0.1
+      - uses: iterative/setup-cml@v2.1.0
 
       - uses: actions/setup-python@v6
         with:
